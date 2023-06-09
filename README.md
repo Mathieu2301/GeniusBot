@@ -1,6 +1,6 @@
 # Genius Bot
 
-Bot using the Genius API to get lyrics that can complete messages.
+Bot that responds to messages with song lyrics obtained from the Genius API.
 Currently compatible with Telegram.
 
 ## Development
