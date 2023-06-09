@@ -4,7 +4,7 @@ on:
     branches: ['main']
   workflow_dispatch:
 jobs:
-  process-api:
+  publish-to-ghcr:
     runs-on: ubuntu-latest
     steps:
     - name: Set up QEMU
