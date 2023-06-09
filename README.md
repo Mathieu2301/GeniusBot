@@ -37,13 +37,4 @@ services:
     restart: always
     environment:
       TELEGRAM_KEY: ${TELEGRAM_KEY}
-    labels:
-      - 'traefik.enable=true'
-      - 'traefik.http.routers.genius-bot.rule=Host(`${SERVER_URL}`)'
-      - 'traefik.http.routers.genius-bot.entrypoints=https'
-
-networks:
-  default:
-    name: public
-    external: true
 ```
